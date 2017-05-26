@@ -6,19 +6,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * Created by seb on 24.05.17.
+ */
 var core_1 = require("@angular/core");
-require("../assets/css/styles.css");
-var AppComponent = (function () {
-    function AppComponent() {
+require("../../assets/css/styles.css");
+var MenuComponent = (function () {
+    function MenuComponent() {
+        this.title = 'Tour of Heroes';
+        this.hero = 'Windstorm';
     }
-    return AppComponent;
+    return MenuComponent;
 }());
-AppComponent = __decorate([
+MenuComponent = __decorate([
     core_1.Component({
-        selector: 'techno2-app',
-        templateUrl: './app.component.html',
-        styleUrls: ['./app.component.css']
+        selector: 't2-menu',
+        templateUrl: './menu.component.html',
+        styleUrls: ['./menu.component.css']
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], MenuComponent);
+exports.MenuComponent = MenuComponent;
+//# sourceMappingURL=main.component.js.map

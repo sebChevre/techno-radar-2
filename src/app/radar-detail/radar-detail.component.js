@@ -6,19 +6,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+/**
+ * Created by seb on 25.05.17.
+ */
 var core_1 = require("@angular/core");
-require("../assets/css/styles.css");
-var AppComponent = (function () {
-    function AppComponent() {
+var RadarListComponent = (function () {
+    function RadarListComponent() {
+        this.title = 'Tour of Heroes';
+        this.hero = 'Windstorm';
     }
-    return AppComponent;
+    return RadarListComponent;
 }());
-AppComponent = __decorate([
+RadarListComponent = __decorate([
     core_1.Component({
-        selector: 'techno2-app',
-        templateUrl: './app.component.html',
-        styleUrls: ['./app.component.css']
+        selector: 't2-radar-list',
+        templateUrl: './radar-list.component.html',
+        styleUrls: ['./radar-list.component.css']
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], RadarListComponent);
+exports.RadarListComponent = RadarListComponent;
+//# sourceMappingURL=radar-detail.component.js.map
