@@ -8,22 +8,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+/**
+ * Created by seb on 25.05.17.
+ */
 var core_1 = require('@angular/core');
-require('../assets/css/styles.css');
-var AppComponent = (function () {
-    function AppComponent() {
+var PageNotFoundComponent = (function () {
+    function PageNotFoundComponent() {
         this.title = 'Tour of Heroes';
         this.hero = 'Windstorm';
     }
-    AppComponent = __decorate([
+    PageNotFoundComponent = __decorate([
         core_1.Component({
-            selector: 'techno2-app',
-            templateUrl: './app.component.html',
-            styleUrls: ['./app.component.css']
+            selector: 't2-page-not-found',
+            templateUrl: 'page-not-found.component.html',
+            styleUrls: ['page-not-found.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], PageNotFoundComponent);
+    return PageNotFoundComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.PageNotFoundComponent = PageNotFoundComponent;
+//# sourceMappingURL=page-not-found.component.js.map
