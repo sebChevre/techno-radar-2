@@ -8,22 +8,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+/**
+ * Created by seb on 24.05.17.
+ */
 var core_1 = require('@angular/core');
-require('../assets/css/styles.css');
-var AppComponent = (function () {
-    function AppComponent() {
+var MainComponent = (function () {
+    function MainComponent() {
         this.title = 'Tour of Heroes';
         this.hero = 'Windstorm';
     }
-    AppComponent = __decorate([
+    MainComponent = __decorate([
         core_1.Component({
-            selector: 'techno2-app',
-            templateUrl: './app.component.html',
-            styleUrls: ['./app.component.css']
+            selector: 't2-main',
+            templateUrl: 'main.component.html',
+            styleUrls: ['main.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], MainComponent);
+    return MainComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.MainComponent = MainComponent;
+//# sourceMappingURL=main.component.js.map

@@ -8,22 +8,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+/**
+ * Created by seb on 25.05.17.
+ */
 var core_1 = require('@angular/core');
-require('../assets/css/styles.css');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.title = 'Tour of Heroes';
-        this.hero = 'Windstorm';
+var mock_radars_1 = require('../data/mock-radars');
+var Rx_1 = require('rxjs/Rx');
+var RadarService = (function () {
+    function RadarService() {
     }
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: 'techno2-app',
-            templateUrl: './app.component.html',
-            styleUrls: ['./app.component.css']
-        }), 
+    RadarService.prototype.getRadars = function () {
+        return mock_radars_1.RADARS;
+    }; // stub
+    RadarService.prototype.getRadarsObervable = function () {
+        return Rx_1.Observable.from(mock_radars_1.RADARS);
+    };
+    RadarService = __decorate([
+        core_1.Injectable(), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], RadarService);
+    return RadarService;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.RadarService = RadarService;
+//# sourceMappingURL=radar.service.js.map

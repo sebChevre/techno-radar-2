@@ -2,3 +2,8 @@ body {
     background: #0147A7;
     color: #fff;
 }
+
+.radar-overview-box{
+    color: black;
+    cursor: pointer;
+}
