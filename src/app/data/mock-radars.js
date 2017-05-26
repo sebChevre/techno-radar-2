@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-/**
- * Created by seb on 25.05.17.
- */
-=======
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Created by seb on 25.05.17.
  */
@@ -19,5 +15,4 @@ exports.RADARS = [
     { id: 19, titre: 'test', description: 'Magma', creation: new Date() },
     { id: 20, titre: 'test', description: 'Tornado', creation: new Date() }
 ];
->>>>>>> 73af6fb74434654dba4ff5b23ef6e9b0aa036955
 //# sourceMappingURL=mock-radars.js.map

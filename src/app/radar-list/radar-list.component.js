@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-/**
- * Created by seb on 25.05.17.
- */
-=======
 "use strict";
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -13,11 +8,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Created by seb on 25.05.17.
  */
-var core_1 = require('@angular/core');
-var radar_service_1 = require('../services/radar.service');
+var core_1 = require("@angular/core");
+var radar_service_1 = require("../services/radar.service");
 var RadarListComponent = (function () {
     function RadarListComponent(service) {
         this.service = service;
@@ -41,17 +37,16 @@ var RadarListComponent = (function () {
             console.log('Completed');
         });
     };
-    RadarListComponent = __decorate([
-        core_1.Component({
-            selector: 't2-radar-list',
-            templateUrl: './radar-list.component.html',
-            styleUrls: ['./radar-list.component.css'],
-            providers: [radar_service_1.RadarService]
-        }), 
-        __metadata('design:paramtypes', [radar_service_1.RadarService])
-    ], RadarListComponent);
     return RadarListComponent;
 }());
+RadarListComponent = __decorate([
+    core_1.Component({
+        selector: 't2-radar-list',
+        templateUrl: './radar-list.component.html',
+        styleUrls: ['./radar-list.component.css'],
+        providers: [radar_service_1.RadarService]
+    }),
+    __metadata("design:paramtypes", [radar_service_1.RadarService])
+], RadarListComponent);
 exports.RadarListComponent = RadarListComponent;
->>>>>>> 73af6fb74434654dba4ff5b23ef6e9b0aa036955
 //# sourceMappingURL=radar-list.component.js.map

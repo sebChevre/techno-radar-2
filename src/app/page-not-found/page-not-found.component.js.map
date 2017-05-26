@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"version":3,"file":"page-not-found.component.js","sourceRoot":"","sources":["page-not-found.component.ts"],"names":[],"mappings":";;;;;;;;AAAA;;GAEG;AACH,sCAA0C;AAQ1C,IAAa,oBAAoB;IALjC;QAMI,UAAK,GAAG,gBAAgB,CAAC;QACzB,SAAI,GAAG,WAAW,CAAC;IACvB,CAAC;IAAD,2BAAC;AAAD,CAAC,AAHD,IAGC;AAHY,oBAAoB;IALhC,gBAAS,CAAC;QACP,QAAQ,EAAE,iBAAiB;QAC3B,WAAW,EAAE,6BAA6B;QAC1C,SAAS,EAAE,CAAC,4BAA4B,CAAC;KAC5C,CAAC;GACW,oBAAoB,CAGhC;AAHY,oDAAoB"}
-=======
-{"version":3,"file":"page-not-found.component.js","sourceRoot":"","sources":["page-not-found.component.ts"],"names":[],"mappings":";;;;;;;;;;AAAA;;GAEG;AACH,qBAA0B,eAAe,CAAC,CAAA;AAQ1C;IAAA;QACI,UAAK,GAAG,gBAAgB,CAAC;QACzB,SAAI,GAAG,WAAW,CAAC;IACvB,CAAC;IARD;QAAC,gBAAS,CAAC;YACP,QAAQ,EAAE,mBAAmB;YAC7B,WAAW,EAAE,+BAA+B;YAC5C,SAAS,EAAE,CAAC,8BAA8B,CAAC;SAC9C,CAAC;;6BAAA;IAIF,4BAAC;AAAD,CAAC,AAHD,IAGC;AAHY,6BAAqB,wBAGjC,CAAA"}
->>>>>>> 73af6fb74434654dba4ff5b23ef6e9b0aa036955
+{"version":3,"file":"page-not-found.component.js","sourceRoot":"","sources":["page-not-found.component.ts"],"names":[],"mappings":";;;;;;;;AAAA;;GAEG;AACH,sCAA0C;AAQ1C,IAAa,qBAAqB;IALlC;QAMI,UAAK,GAAG,gBAAgB,CAAC;QACzB,SAAI,GAAG,WAAW,CAAC;IACvB,CAAC;IAAD,4BAAC;AAAD,CAAC,AAHD,IAGC;AAHY,qBAAqB;IALjC,gBAAS,CAAC;QACP,QAAQ,EAAE,mBAAmB;QAC7B,WAAW,EAAE,+BAA+B;QAC5C,SAAS,EAAE,CAAC,8BAA8B,CAAC;KAC9C,CAAC;GACW,qBAAqB,CAGjC;AAHY,sDAAqB"}
