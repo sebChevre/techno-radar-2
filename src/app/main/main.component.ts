@@ -2,14 +2,14 @@
  * Created by seb on 24.05.17.
  */
 import { Component } from '@angular/core';
-import '../../assets/css/styles.css';
+
 
 @Component({
-    selector: 't2-menu',
-    templateUrl: './menu.component.html',
-    styleUrls: ['./menu.component.css']
+    selector: 't2-main',
+    templateUrl: 'main.component.html',
+    styleUrls: ['main.component.css']
 })
-export class MenuComponent {
+export class MainComponent {
     title = 'Tour of Heroes';
     hero = 'Windstorm';
 }
