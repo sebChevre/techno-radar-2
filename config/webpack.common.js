@@ -43,6 +43,25 @@ module.exports = {
                 test: /\.css$/,
                 include: helpers.root('src', 'app'),
                 loader: 'raw-loader'
+            },{
+                test: /\.less$/,
+                loader: 'style-loader!css-loader!less-loader'
+            },
+            {
+                test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
+                loader: "url-loader?limit=10000&minetype=application/font-woff"
+            }, {
+                test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
+                loader: "url-loader?limit=10000&minetype=application/font-woff"
+            }, {
+                test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+                loader: "url-loader?limit=10000&minetype=application/octet-stream"
+            }, {
+                test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+                loader: "file-loader"
+            }, {
+                test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+                loader: "url-loader?limit=10000&minetype=image/svg+xml"
             }
         ]
     },
@@ -62,6 +81,11 @@ module.exports = {
 
         new HtmlWebpackPlugin({
             template: 'src/index.html'
+        }),
+        new webpack.ProvidePlugin({
+            jQuery: 'jquery',
+            $: 'jquery',
+            jquery: 'jquery'
         })
     ]
 };

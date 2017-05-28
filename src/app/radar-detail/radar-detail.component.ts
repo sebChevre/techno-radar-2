@@ -3,7 +3,9 @@
  */
 import { Component } from '@angular/core';
 import {ActivatedRoute, Router, Params} from "@angular/router";
+//import '../../assets/js/radar.js';
 
+declare var radar: any;
 
 @Component({
     selector: 't2-radar-detail',
@@ -15,10 +17,15 @@ export class RadarDetailComponent {
     hero = 'Windstorm';
     radarid:number;
 
+
+
     constructor(
         private route: ActivatedRoute,
         private router: Router
-    ) {}
+    ) {
+
+       // Radar(null,null);
+    }
 
     goToProductDetails() {
         this.router.navigate(['/product-details', this.radarid]);

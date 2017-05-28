@@ -25,11 +25,14 @@
     "ngx-bootstrap": "^1.6.6",
     "rxjs": "5.0.1",
     "typescript": "^2.3.3",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.8.4",
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.1.0",
+    "less": "^2.7.1"
   },
   "devDependencies": {
-    "@types/node": "^6.0.45",
     "@types/jasmine": "2.5.36",
+    "@types/node": "^6.0.45",
     "angular2-template-loader": "^0.6.0",
     "awesome-typescript-loader": "^3.0.4",
     "css-loader": "^0.26.1",
@@ -44,13 +47,20 @@
     "karma-jasmine-html-reporter": "0.2.2",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
     "null-loader": "^0.1.1",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.2",
     "style-loader": "^0.13.1",
     "typescript": "~2.2.1",
+    "url-loader": "^0.5.8",
     "webpack": "2.2.1",
     "webpack-dev-server": "2.4.1",
-    "webpack-merge": "^3.0.0"
+    "webpack-merge": "^3.0.0",
+    "chance": "^1.0.4",
+    "d3": "^4.2.6",
+    "d3-tip": "^0.7.1",
+    "lodash": "^4.16.2"
   }
 }
